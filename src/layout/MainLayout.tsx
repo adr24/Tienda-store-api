@@ -1,5 +1,5 @@
 import React, { Children, FC } from 'react'
-
+import { Header } from '../components'
 // const edad: number = 12;
 // console.log(edad);
 
