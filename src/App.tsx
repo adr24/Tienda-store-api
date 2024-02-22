@@ -1,14 +1,19 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { MainLayout } from './layout/MainLayout'
+import { ProductContext } from './context/products/ProductContext';
+import { ProductList } from './components/products/ProductList';
 
 const App = () => {
+
   return (
     <>
       <MainLayout>
+        { /*Listado de productos */}
+        <ProductList/>
+
         <div>
-          123</div>
+        </div>
       </MainLayout>
-      <h1 className="text-3xl font-bold underline">Hola Mundo</h1>
     </>
   )
 }

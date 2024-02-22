@@ -14,7 +14,7 @@ export const MainLayout:FC<Props> = ({ children }) => {
         <Header/>
 
         { /*CONTENIDO PRINCIPAL*/}
-        <main>
+        <main className=' px-10 py-10'>
             { children }
         </main>
 
